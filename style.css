@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+h1 {
+  color: white;
+  font-size: 48px;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 32;
+}
+button {
+  border-radius: 5px;
+  border-color: darkgrey;
+  color: black;
+}
+body {
+  font-family: Lato;
+}
+p {
+  font-family: Poppins;
+}
+.biru {
+  color: rgb(254, 254, 255);
+}
+.red {
+  color: red;
+}
+.hd {
+  font-family: sans-serif;
+  background-color: rgb(42, 82, 133);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.nv {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 15px;
+}
+
+.countainer {
+  background-color: rgb(47, 82, 117);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.jdl {
+  align-self: center;
+}
+
+.tmq {
+  display: flex;
+  gap: 15px;
+}
+
+.nv {
+  align-self: center;
+}
+
+.tmq-left {
+  width: 1100px;
+  margin-left: 14px;
+}
+
+.tmq-right {
+  align-self: flex-end;
+  margin-top: 30px;
+}
+
+.thumnail-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 90px;
+  margin-right: 90px;
+  gap: 30px;
+}
+
+.th-flex {
+  display: flex;
+  background-color: rgb(46, 77, 109);
+  color: white;
+  width: 265px;
+  height: 90px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: -60px;
+  text-align: center;
+  align-items: center;
+}
+
+.layanan {
+  padding: 0 90px;
+}
+
+.layanan h3 {
+  color: rgb(251, 255, 0);
+  font-size: 25px;
+  line-height: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.layanan h2 {
+  font-size: 30 px;
+  line-height: 54px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container-layanan {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 0px 90px;
+}
+
+.flex-layanan {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-kabar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 120px 200px;
+  margin: 0px 90px 90px;
+  row-gap: 45px;
+  column-gap: 30px;
+}
+
+.agenda {
+  background-color: #c7d0d4;
+  grid-column: 3/4;
+  grid-row: 1/3;
+  border-radius: 10px;
+  column-gap: 15px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 60px 1fr 1fr;
+}
+
+.kb {
+  color: orange;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 90px;
+  margin-top: 90px;
+}
+
+.berita {
+  display: flex;
+  gap: 10px;
+}
+
+.berita img {
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.berita p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.satu {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.agenda img {
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.rowtv {
+  background-color: #1c4d79;
+  color: white;
+  margin: 30px 0;
+  padding: 30px 90px;
+}
+
+.rowtv > h3 {
+  color: orange;
+}
+
+.kontentv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.putih {
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  width: 420px;
+}
+
+.content img {
+  border-radius: 10px;
+}
+
+.ft {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #1c4d79;
+  padding: 30px 90px;
+}
+
+.ft-about {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.wa {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  width: 65px;
+  height: auto;
+}
+.alamat {
+  width: 200px;
+}
+.sosmed {
+  width: 30px;
+  height: 30px;
+  margin-right: 50px;
+}
+.sosmed i {
+  margin-bottom: 15px;
+}
+.about-page {
+  padding: 30px 90px;
+}
+table {
+  width: 800px;
+  height: auto;
+}
+th {
+  text-align: center;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+tr:hover {
+  background-color: #f4f4f4;
+}
+@media (max-width: 1500px) {
+  .kontentv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (max-width: 980px) {
+  .ft {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1260px) {
+  .ft {
+    gap: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-kabar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .agenda {
+    background-color: #c7d0d4;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    padding: 5px;
+  }
+}
+@media (max-width: 1080px) {
+  .kontentv {
+    flex-direction: column;
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  .hd {
+    flex-direction: column;
+  }
+  .logo {
+    align-self: center;
+  }
+  .ft {
+    flex-direction: column;
+  }
+  .sosmed {
+    margin-right: 15px;
+  }
+  .nv {
+    margin-bottom: 20px;
+  }
+  .container-kabar {
+    display: flex;
+    flex-direction: column;
+  }
+  .kontentv {
+    flex-direction: column;
+    display: flex;
+  }
+  .container-layanan {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+  }
+}
+@media (max-width: 560px) {
+  .rowtv {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  .thumnail-header {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
